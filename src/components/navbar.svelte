@@ -1,9 +1,10 @@
 <script>
     import { location } from "svelte-spa-router";
-    import { Icon, HomeModern } from "svelte-hero-icons";
+    import { Icon, HomeModern, GlobeAlt } from "svelte-hero-icons";
   
     let routes = [
         { name: "Home", route: "#/home", icon: HomeModern },
+        {name:"Tree", route: '#/tree', icon: GlobeAlt }
         // Add other routes here as needed
     ];
 </script>
